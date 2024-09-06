@@ -1,0 +1,93 @@
+/* nav */
+.header{
+
+    background-color:rgb(254, 225, 205);
+   
+}
+.box1{
+ margin: 10px;
+ width: 1600px;
+ height: 837px;
+
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-ti{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+margin-left: 20px;
+}
+ul>li{
+    display: inline-block;
+    margin-right: 80px;
+ 
+}
+li>a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+}
+#tc{
+    color: rgb(253, 110, 10);
+
+}
+.btn{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+width: 180px;
+height: 64px;
+background: rgb(253, 110, 10);
+border: none;
+padding: 5px 20px;
+}
+
+/* head content */
+.banner{
+    display: flex;
+    padding: 161px 38px 0px 215px ;
+    /* padding: 30px 30px 30px 150px; */
+    align-items: center;
+    justify-content: space-between;
+
+}
+#greet{
+    color: rgb(71, 71, 71);
+    
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600
+
+}
+#tit{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 85px;
+font-weight: 700;
+}
+.des{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+}
+#con{
+    border-radius: 10px;
+    width: 180px;
+height: 64px;
+color: rgb(253, 110, 10);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+padding: 5px 20px;
+border: 1px solid rgb(253, 110, 10);
+}
